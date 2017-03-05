@@ -9,10 +9,10 @@ HTTP的幂等意味着，多个相同的请求和一个请求的副作用相同�
  
 HTTP POST 和 PATCH 方法，既不是安全的，也不是幂等的。 (PATCH 请参考[RFC 5789](https://tools.ietf.org/html/rfc5789))
 
-|HTTP Verb |Safe	|Idempotent|
-|----------|---- |----------|
-|[GET](https://tools.ietf.org/html/rfc2616#section-9.3)|Yes |Yes|
-|[PUT](https://tools.ietf.org/html/rfc2616#section-9.6)  | |Yes|
-|[DELETE](https://tools.ietf.org/html/rfc2616#section-9.7)| |Yes|
-|[POST](https://tools.ietf.org/html/rfc2616#section-9.5)| |Yes|
-|[PATCH](https://tools.ietf.org/html/rfc5789)| |Yes|
+| HTTP Verb                                                 | Safe | Idempotent |
+| --------------------------------------------------------- | ---- | ---------- |
+| [GET](https://tools.ietf.org/html/rfc2616#section-9.3)    | Yes  | Yes        |
+| [PUT](https://tools.ietf.org/html/rfc2616#section-9.6)    |      | Yes        |
+| [DELETE](https://tools.ietf.org/html/rfc2616#section-9.7) |      | Yes        |
+| [POST](https://tools.ietf.org/html/rfc2616#section-9.5)   |      | Yes        |
+| [PATCH](https://tools.ietf.org/html/rfc5789)              |      | Yes        |
