@@ -1,4 +1,4 @@
-#HTTP 方法#
+# HTTP 方法
 
 网络化API支持多种传输协议，包括HTTP。因此，每一个API方法 **必须** 遵守其映射到的特定HTTP方法的HTTP协议相关的要求。更多细节，请参考超[文本传输协议规范](https://tools.ietf.org/html/rfc2616#section-9)和它的[补丁方法](http://tools.ietf.org/html/rfc5789)RFC。
 
